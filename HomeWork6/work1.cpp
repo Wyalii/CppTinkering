@@ -39,7 +39,7 @@ int main()
 
     // 2
     int B[10];
-    int min;
+    int min,lmin;
     cout<< "sheavse masivi: "<<endl;
     for(int i = 0; i <10; i++)
     {
@@ -51,10 +51,12 @@ int main()
        if(B[i]<min)
        {
           min = B[i];
+          lmin = i;
        }
        
     }
     cout<<"min: "<<min<<endl;
+    cout<<"lmin: "<<lmin<<endl;
     cout<<endl;
 
     // 3
